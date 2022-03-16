@@ -1,0 +1,7 @@
+<h1>About</h1>
+
+<h2>Credentials</h2>
+<%= ap(@about.fetch(:credentials), {html: true}).html_safe %>
+
+<h2>Environment Variables</h2>
+<%= ap(@about.fetch(:environment_variables), {html: true}).html_safe %>

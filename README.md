@@ -1,24 +1,6 @@
-# README
+# Rails 7 Test Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+We created a Rails "skeleton" project for testing pieces of Rails w/o the complexity of a complete app.
 
-Things you may want to cover:
+Look in application.js for static pages.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
