@@ -7,10 +7,20 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css" %>
+    
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
+    <ul>
+      <li><%= link_to 'About', about_path %></li>
+      <li><%= link_to 'Credentials', credentials_path %></li>
+    </ul>
     <%= yield %>
+
+    <!-- Enable Highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </body>
 </html>
